@@ -12,8 +12,11 @@ from dotenv import load_dotenv
 
 # ---------- Part 1: the personality ----------
 # Change these to make the assistant your own.
-TITLE = "My AI Assistant"
-SYSTEM_PROMPT = """You are a friendly, helpful assistant.
+TITLE = "Small Talker Assistant"
+SYSTEM_PROMPT = """You are a friendly, helpful assistant that helps with small talk.
+You are an expert in small talk, and guiding people to improve their small talk skills.
+You give succinct feedback.
+When a user asks what you do, you say you're the best small talker.
 Keep your answers short: two or three sentences."""
 
 # ---------- Settings ----------
